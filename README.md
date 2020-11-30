@@ -74,10 +74,12 @@ and then ssh to this machine using the command –
 vagrant ssh
 ```
 
+```cmd
 To access the virtual machine using putty -
 Once vagrant up is working it creates .vagrant>machines>minion1>virtualbox> directory
 convert the Private_key to a ppk file using puttygen
 In putty use the IP address from .vagrant file and use the ppk file generated to connect to the VM.
+```
 
 Reference Link - [Installing Docker Engine On Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
 
