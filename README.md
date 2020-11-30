@@ -12,7 +12,9 @@
 
 [Download Vagrant!](https://www.vagrantup.com/downloads.html)
 
-3. Install Visual Studio Code (you can use any other text editor if you wish) -
+Restart your machine.
+
+3. Install Visual Studio Code (you can use any other text editor) -
 
 [Download Visual Studio Code!](https://code.visualstudio.com/)
 
@@ -71,6 +73,11 @@ and then ssh to this machine using the command –
 ```bash
 vagrant ssh
 ```
+
+To access the virtual machine using putty -
+Once vagrant up is working it creates .vagrant>machines>minion1>virtualbox> directory
+convert the Private_key to a ppk file using puttygen
+In putty use the IP address from .vagrant file and use the ppk file generated to connect to the VM.
 
 Reference Link - [Installing Docker Engine On Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
 
