@@ -1,0 +1,4 @@
+.vagrant
+temp
+*.log
+*.pdf
